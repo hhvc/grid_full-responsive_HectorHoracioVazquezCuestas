@@ -138,10 +138,14 @@ ul.show{
     "main2";
 }
 .main1{
+    background: radial-gradient(ellipse farthest-corner, rgba(180, 6, 6, .616) 7%, rgba(18, 201, 134, .4) 40%, rgba(18, 201, 134, .3) 30%, white 10%);
     grid-area: main1;
     display: grid;
     align-items: center;
     justify-content: center;
+}
+.main1 :hover{
+    font-weight: bold;
 }
 .main2{
     grid-area: main2;
